@@ -11,12 +11,12 @@
 
 .calculator {
     width: 350px;
-    height: 450px;
+    height: 500px;
     border: 2px solid black;
     margin: 100px auto 0;
     text-align: center;
     background-color: rgb(184, 150, 228);
-    /* box-shadow: 0 0 30px grey; */
+    box-shadow: 0 0 30px rgb(165, 155, 173);
     border-radius: 4px;
 }
 
@@ -29,10 +29,16 @@
     /* text-transform: uppercase; */
     background-color: rgb(228, 217, 245);
     font-size: 100%;
+    color: grey;
 }
 
 .calc_key--equal {
-    width: 392px;
+    width: 327px;
+}
+
+.calc_key--power {
+    background-color: green;
+    color: black;
 }
 
 .calc_key:hover {
